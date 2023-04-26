@@ -13,18 +13,11 @@ import {
   SiCss3,
   SiHtml5,
   SiGit,
-  SiRedux,
   SiVite,
-  SiBootstrap,
   SiVisualstudiocode,
   SiFigma,
   SiAdobephotoshop,
   SiAdobeillustrator,
-  SiAdobexd,
-  SiMongodb,
-  SiExpress,
-  SiNodedotjs,
-  SiWebpack,
   SiGithub,
 } from "react-icons/si";
 
