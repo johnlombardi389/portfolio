@@ -25,6 +25,11 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
+
+      <BtnContainer>
+        <Link to={"/portfolio/projects"}>See My Work</Link>
+        <a href="mailto:johnlombardi389@gmail.com">Contact Me</a>
+      </BtnContainer>
     </IntroContainer>
   );
 };
@@ -64,5 +69,46 @@ const IntroContainer = styled(motion.div)`
     }
   }
 `;
+
+const BtnContainer = styled(motion.div)`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  a {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    border: 3px solid blue;
+    background-color: darkblue;
+    color: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 2rem;
+
+    &:hover {
+      background-color: blue;
+      color: yellow;
+    }
+  }
+`;
+
+// const BtnLink = styled(Link)`
+//   padding: 1rem 2rem;
+//   font-size: 1.1rem;
+//   border-radius: 2rem;
+//   border: 3px solid blue;
+//   background-color: darkblue;
+//   color: white;
+//   transition: all 0.5s ease;
+//   cursor: pointer;
+//   text-decoration: none;
+
+//   &:hover {
+//     background-color: blue;
+//     color: yellow;
+//   }
+// `;
 
 export default Home;
