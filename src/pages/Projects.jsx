@@ -1,3 +1,7 @@
+// Style
+import styled from "styled-components";
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <div>
