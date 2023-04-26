@@ -1,4 +1,10 @@
 // Videos
+import gamePacVid from "./assets/videos/gamePacVid.mp4";
+import layoutGenVid from "./assets/videos/layoutGenVid.mp4";
+import musicPlayerVid from "./assets/videos/musicPlayerVid.mp4";
+import pixelSketchVid from "./assets/videos/pixelSketchVid.mp4";
+import portVid from "./assets/videos/portVid.mp4";
+import rpsVid from "./assets/videos/rpsVid.mp4";
 
 const projectData = () => [
   {
