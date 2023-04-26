@@ -58,8 +58,7 @@ const IntroContainer = styled(motion.div)`
       font-size: 2.5rem;
 
       span {
-        color: $pink;
-        font-weight: 700;
+        color: pimk;
       }
     }
 
@@ -93,22 +92,5 @@ const BtnContainer = styled(motion.div)`
     }
   }
 `;
-
-// const BtnLink = styled(Link)`
-//   padding: 1rem 2rem;
-//   font-size: 1.1rem;
-//   border-radius: 2rem;
-//   border: 3px solid blue;
-//   background-color: darkblue;
-//   color: white;
-//   transition: all 0.5s ease;
-//   cursor: pointer;
-//   text-decoration: none;
-
-//   &:hover {
-//     background-color: blue;
-//     color: yellow;
-//   }
-// `;
 
 export default Home;
