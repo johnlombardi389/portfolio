@@ -94,13 +94,13 @@ const StyledNav = styled.nav`
         height: 1.75rem;
       }
     }
-
-    @media (max-width: 770px) {
-      flex-direction: column;
-      ul {
-        li {
-          padding: 0 0.75rem;
-        }
+  }
+  @media (max-width: 770px) {
+    flex-direction: column;
+    ul {
+      li {
+        margin-top: 1rem;
+        padding: 0 0.75rem;
       }
     }
   }
