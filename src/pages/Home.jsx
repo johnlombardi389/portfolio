@@ -43,6 +43,14 @@ const IntroContainer = styled(motion.div)`
   height: 300px;
   color: white;
 
+  @media (max-width: 900px) {
+    width: 350px;
+  }
+
+  @media (max-width: 375px) {
+    width: 300px;
+  }
+
   .title {
     margin-bottom: 2rem;
 
@@ -58,7 +66,7 @@ const IntroContainer = styled(motion.div)`
       font-size: 2.5rem;
 
       span {
-        color: pimk;
+        color: #fb4c8b;
       }
     }
 
@@ -78,8 +86,8 @@ const BtnContainer = styled(motion.div)`
     padding: 1rem 2rem;
     font-size: 1.1rem;
     border-radius: 2rem;
-    border: 3px solid blue;
-    background-color: darkblue;
+    border: 3px solid #19a8c5;
+    background-color: #0e1624;
     color: white;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -87,8 +95,8 @@ const BtnContainer = styled(motion.div)`
     margin-right: 2rem;
 
     &:hover {
-      background-color: blue;
-      color: yellow;
+      background-color: #19a8c5;
+      color: #f9c04d;
     }
   }
 `;

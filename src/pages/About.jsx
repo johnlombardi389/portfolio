@@ -135,7 +135,7 @@ const StyledAbout = styled(motion.div)`
   }
 
   h2 {
-    color: $pink;
+    color: #fb4c8b;
     font-size: 1.5rem;
     margin: 1rem 0;
   }
@@ -171,7 +171,7 @@ const AboutText = styled.div`
     font-size: 1rem;
 
     a {
-      color: yellow;
+      color: #f9c04d;
     }
   }
 `;
@@ -225,13 +225,13 @@ const AboutTools = styled(motion.div)`
         top: -8px;
 
         svg {
-          color: blue;
+          color: #19a8c5;
         }
 
         span {
           opacity: 1;
           margin-top: 5rem;
-          color: pink;
+          color: #fb4c8b;
         }
       }
     }

@@ -58,7 +58,7 @@ const StyledNav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  background: blue;
+  background: #080e1d;
 
   h1 {
     img {
@@ -69,11 +69,11 @@ const StyledNav = styled.nav`
 
   a {
     cursor: pointer;
-    color: green;
+    color: white;
     text-decoration: none;
     transition: all 0.3s ease;
     &:hover {
-      color: purple;
+      color: #f9c04d;
     }
   }
 
@@ -104,7 +104,7 @@ const StyledNav = styled.nav`
   }
 
   .active {
-    color: red;
+    color: #f9c04d;
   }
 `;
 

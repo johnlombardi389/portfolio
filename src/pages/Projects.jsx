@@ -79,7 +79,7 @@ const GridItem = styled.div`
   align-items: center;
   height: auto;
   overflow: hidden;
-  background-color: $darkBlue;
+  background-color: #0e1624;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.3s ease-in-out;
 
@@ -107,7 +107,7 @@ const CardInfo = styled.div`
 
   h3 {
     margin-right: 2rem;
-    color: purple;
+    color: #fb4c8b;
     font-size: 1.25rem;
 
     @media only screen and (max-width: 550px) {
@@ -132,7 +132,7 @@ const CardInfo = styled.div`
     li {
       padding: 0.5rem;
       font-size: 0.85rem;
-      color: yellow;
+      color: #f9c04d;
 
       @media only screen and (max-width: 550px) {
         padding: 0.25rem;
@@ -162,7 +162,7 @@ const Buttons = styled.div`
     text-decoration: none;
     font-size: 1rem;
     border-radius: 2rem;
-    border: 3px solid green;
+    border: 3px solid #19a8c5;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
       rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
@@ -172,8 +172,8 @@ const Buttons = styled.div`
     transition: all 0.5s ease;
 
     &:hover {
-      background-color: green;
-      color: $yellow;
+      background-color: #19a8c5;
+      color: #f9c04d;
     }
   }
 `;
