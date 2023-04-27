@@ -88,6 +88,11 @@ const BtnContainer = styled(motion.div)`
   display: flex;
   flex-direction: row;
   align-items: center;
+  @media (max-width: 950px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
 
   a {
     padding: 1rem 2rem;
@@ -106,6 +111,9 @@ const BtnContainer = styled(motion.div)`
     &:hover {
       background-color: #19a8c5;
       color: #f9c04d;
+    }
+    @media (max-width: 950px) {
+      margin-bottom: 2rem;
     }
   }
 `;
