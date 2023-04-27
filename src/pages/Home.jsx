@@ -8,46 +8,59 @@ import { pageAnimation, titleAnimation, btnSlide } from "../style/animation";
 
 const Home = () => {
   return (
-    <IntroContainer
-      variants={pageAnimation}
-      initial="hidden"
-      animate="show"
-      exit="exit"
-    >
-      <motion.div className="title" variants={titleAnimation}>
-        <div className="reveal">
-          <div className="hide">
-            <h2>
-              My name is <span>John Lombardi</span>
-            </h2>
+    <ParentContainer>
+      <IntroContainer
+        variants={pageAnimation}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
+        <motion.div className="title" variants={titleAnimation}>
+          <div className="reveal">
+            <div className="hide">
+              <h2>
+                My name is <span>John Lombardi</span>
+              </h2>
+            </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
 
-      <motion.div className="title" variants={titleAnimation}>
-        <div className="reveal">
-          <div className="hide">
-            <p>I’m a design minded software engineer and lifelong learner</p>
+        <motion.div className="title" variants={titleAnimation}>
+          <div className="reveal">
+            <div className="hide">
+              <p>I’m a design minded software engineer and lifelong learner</p>
+            </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
 
-      <BtnContainer variants={btnSlide}>
-        <Link to={"/portfolio/projects"}>See My Work</Link>
-        <a href="mailto:johnlombardi389@gmail.com">Contact Me</a>
-      </BtnContainer>
-    </IntroContainer>
+        <BtnContainer variants={btnSlide}>
+          <Link to={"/portfolio/projects"}>See My Work</Link>
+          <a href="mailto:johnlombardi389@gmail.com">Contact Me</a>
+        </BtnContainer>
+      </IntroContainer>
+    </ParentContainer>
   );
 };
 
+const ParentContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+`;
+
 const IntroContainer = styled(motion.div)`
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
   max-width: 1000px;
-  height: 300px;
+  height: 300px; */
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 
   @media (max-width: 900px) {
     width: 350px;
