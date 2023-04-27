@@ -11,9 +11,9 @@ const Home = () => {
       <motion.div className="title">
         <div className="reveal">
           <div className="hide">
-            <h1>
+            <h2>
               My name is <span>John Lombardi</span>
-            </h1>
+            </h2>
           </div>
         </div>
       </motion.div>
@@ -63,16 +63,23 @@ const IntroContainer = styled(motion.div)`
     }
 
     h2 {
-      font-size: 2.5rem;
+      font-size: 2.4rem;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-weight: 400;
 
       span {
         color: #fb4c8b;
+        font-size: 2.5rem;
+        font-family: "Sora", sans-serif;
+        font-weight: 700;
       }
     }
 
     p {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       color: white;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-weight: 100;
     }
   }
 `;
@@ -93,6 +100,8 @@ const BtnContainer = styled(motion.div)`
     cursor: pointer;
     text-decoration: none;
     margin-right: 2rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
 
     &:hover {
       background-color: #19a8c5;

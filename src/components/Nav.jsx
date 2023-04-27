@@ -59,6 +59,8 @@ const StyledNav = styled.nav`
   top: 0;
   z-index: 10;
   background: #080e1d;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
 
   h1 {
     img {

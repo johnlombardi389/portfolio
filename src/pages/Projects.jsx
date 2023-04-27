@@ -109,6 +109,8 @@ const CardInfo = styled.div`
     margin-right: 2rem;
     color: #fb4c8b;
     font-size: 1.25rem;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
 
     @media only screen and (max-width: 550px) {
       margin-right: 0.5rem;
@@ -133,6 +135,8 @@ const CardInfo = styled.div`
       padding: 0.5rem;
       font-size: 0.85rem;
       color: #f9c04d;
+      font-family: "Be Vietnam Pro", sans-serif;
+      font-weight: 400;
 
       @media only screen and (max-width: 550px) {
         padding: 0.25rem;
@@ -167,9 +171,11 @@ const Buttons = styled.div`
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
       rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
       rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    background-color: darkblue;
+    background-color: #0e1624;
     color: white;
     transition: all 0.5s ease;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
 
     &:hover {
       background-color: #19a8c5;

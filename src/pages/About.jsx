@@ -138,6 +138,8 @@ const StyledAbout = styled(motion.div)`
     color: #fb4c8b;
     font-size: 1.5rem;
     margin: 1rem 0;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
   }
 `;
 
@@ -169,6 +171,8 @@ const AboutText = styled.div`
     margin: 1rem 5rem 1rem 0;
     color: white;
     font-size: 1rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
 
     a {
       color: #f9c04d;
@@ -219,6 +223,8 @@ const AboutTools = styled(motion.div)`
         font-size: 1rem;
         z-index: -1;
         transition: all 0.5s ease;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 400;
       }
 
       &:hover {
