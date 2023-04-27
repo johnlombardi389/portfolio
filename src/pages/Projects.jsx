@@ -1,6 +1,7 @@
 // Style
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { pageAnimation } from "../style/animation";
 
 // Project Data
 import projectData from "../data";
@@ -22,7 +23,12 @@ const Projects = () => {
   };
 
   return (
-    <ProjectsGrid>
+    <ProjectsGrid
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       {data.map((project) => (
         <GridItem
           key={project.id}

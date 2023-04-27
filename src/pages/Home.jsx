@@ -4,11 +4,17 @@ import { Link } from "react-router-dom";
 // Style
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { pageAnimation, titleAnimation, btnSlide } from "../style/animation";
 
 const Home = () => {
   return (
-    <IntroContainer>
-      <motion.div className="title">
+    <IntroContainer
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
+      <motion.div className="title" variants={titleAnimation}>
         <div className="reveal">
           <div className="hide">
             <h2>
@@ -18,7 +24,7 @@ const Home = () => {
         </div>
       </motion.div>
 
-      <motion.div className="title">
+      <motion.div className="title" variants={titleAnimation}>
         <div className="reveal">
           <div className="hide">
             <p>I’m a design minded software engineer and lifelong learner</p>
@@ -26,7 +32,7 @@ const Home = () => {
         </div>
       </motion.div>
 
-      <BtnContainer>
+      <BtnContainer variants={btnSlide}>
         <Link to={"/portfolio/projects"}>See My Work</Link>
         <a href="mailto:johnlombardi389@gmail.com">Contact Me</a>
       </BtnContainer>

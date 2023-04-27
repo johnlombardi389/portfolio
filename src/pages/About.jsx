@@ -1,6 +1,7 @@
 // Style
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { pageAnimation, btnSlide } from "../style/animation";
 
 // Images
 import aboutBanner from "../assets/images/aboutBanner.png";
@@ -23,10 +24,16 @@ import {
 
 const About = () => {
   return (
-    <StyledAbout>
+    <StyledAbout
+      className="about-container"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <img src={aboutBanner} alt="Portfolio About Graphic" />
 
-      <AboutInfo>
+      <AboutInfo variants={btnSlide}>
         <AboutText>
           <h2>About Me</h2>
           <p>
