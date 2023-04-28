@@ -50,12 +50,6 @@ const ParentContainer = styled.div`
 `;
 
 const IntroContainer = styled(motion.div)`
-  /* position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  max-width: 1000px;
-  height: 300px; */
   color: white;
   display: flex;
   flex-direction: column;
