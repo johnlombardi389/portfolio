@@ -1,6 +1,6 @@
 # React Portfolio
 
-![Video](/src/assets/videos/portVid.mp4)
+<!-- ![Video](/src/assets/videos/portVid.mp4) -->
 
 ## Table of contents
 
