@@ -15,11 +15,17 @@ import {
   SiHtml5,
   SiGit,
   SiVite,
-  SiVisualstudiocode,
   SiFigma,
   SiAdobephotoshop,
   SiAdobeillustrator,
-  SiGithub,
+  SiPython,
+  SiDjango,
+  SiMicrosoftexcel,
+  SiBlender,
+  SiMysql,
+  SiTailwindcss,
+  SiBootstrap,
+  SiPostgresql,
 } from "react-icons/si";
 
 const About = () => {
@@ -37,20 +43,26 @@ const About = () => {
         <AboutText>
           <h2>About Me</h2>
           <p>
-            I grew up immersing myself in video game worlds where your character
-            was always growing and learning new skills. Just like an RPG, I've
-            adopted leveling up as a lifestyle and this mindset has carried over
-            into my career as a Software Engineer, where I am constantly seeking
-            out new challenges and opportunities to grow.
+            I'm John, a software engineer who was raised by video games and long
+            flights around the world.
           </p>
 
           <p>
-            Combining my background in design and education with a passion for
-            technology and a love of learning, I am driven to create impactful
-            solutions for real-world problems. Skilled in React, I am actively
-            expanding my knowledge of JavaScript and honing my full-stack
-            development abilities through focused learning of the MERN stack{" "}
-            {"("}MongoDB, Express, React, Node{")"}.
+            I'm a recent career changer that previously worked as a product
+            designer. I designed everything from graphics to user experiences,
+            but it was when I decided to build my own portfolio website that
+            everything changed. I taught myself everything from scratch starting
+            with HTML and now I build full-stack applications with React and
+            Django.
+          </p>
+
+          <p>
+            Just like an RPG, I've adopted leveling up as a lifestyle and that
+            mindset has carried over into my career as a Developer where I am
+            passionate about building applications that make your day better.
+            When I'm not coding you'll usually find me experimenting in a
+            kitchen, spending too much time at a museum, or planning my next
+            trip.
           </p>
 
           <p>
@@ -61,7 +73,7 @@ const About = () => {
           </p>
         </AboutText>
 
-        <AboutTools>
+        {/* <AboutTools>
           <h2>Toolkit</h2>
           <ul>
             <li>
@@ -73,16 +85,32 @@ const About = () => {
               <span>JavaScript</span>
             </li>
             <li>
-              <SiSass />
-              <span>Sass</span>
+              <SiHtml5 />
+              <span>HTML</span>
             </li>
             <li>
               <SiCss3 />
               <span>CSS</span>
             </li>
             <li>
-              <SiHtml5 />
-              <span>HTML</span>
+              <SiSass />
+              <span>Sass</span>
+            </li>
+            <li>
+              <SiTailwindcss />
+              <span>Tailwind</span>
+            </li>
+            <li>
+              <SiBootstrap />
+              <span>Bootstrap</span>
+            </li>
+            <li>
+              <SiPython />
+              <span>Python</span>
+            </li>
+            <li>
+              <SiDjango />
+              <span>Django</span>
             </li>
             <li>
               <SiGit />
@@ -93,13 +121,13 @@ const About = () => {
               <span>Vite</span>
             </li>
             <li>
-              <SiVisualstudiocode />
-              <span>VS Code</span>
+              <SiMysql />
+              <span>MySQL</span>
             </li>
 
             <li>
-              <SiGithub />
-              <span>GitHub</span>
+              <SiPostgresql />
+              <span>PostgreSQL</span>
             </li>
             <li>
               <SiFigma />
@@ -113,8 +141,95 @@ const About = () => {
               <SiAdobeillustrator />
               <span>Illustrator</span>
             </li>
+            <li>
+              <SiBlender />
+              <span>Blender</span>
+            </li>
+            <li>
+              <SiMicrosoftexcel />
+              <span>Excel</span>
+            </li>
           </ul>
-        </AboutTools>
+        </AboutTools> */}
+
+        <NewAboutTools>
+          <h2>Toolkit</h2>
+          <ul>
+            <li>
+              <SiReact />
+              <span>React</span>
+            </li>
+            <li>
+              <SiJavascript />
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <SiHtml5 />
+              <span>HTML</span>
+            </li>
+            <li>
+              <SiCss3 />
+              <span>CSS</span>
+            </li>
+            <li>
+              <SiSass />
+              <span>Sass</span>
+            </li>
+            <li>
+              <SiTailwindcss />
+              <span>Tailwind</span>
+            </li>
+            <li>
+              <SiBootstrap />
+              <span>Bootstrap</span>
+            </li>
+            <li>
+              <SiPython />
+              <span>Python</span>
+            </li>
+            <li>
+              <SiDjango />
+              <span>Django</span>
+            </li>
+            <li>
+              <SiGit />
+              <span>Git</span>
+            </li>
+            <li>
+              <SiVite />
+              <span>Vite</span>
+            </li>
+            <li>
+              <SiMysql />
+              <span>MySQL</span>
+            </li>
+
+            <li>
+              <SiPostgresql />
+              <span>PostgreSQL</span>
+            </li>
+            <li>
+              <SiFigma />
+              <span>Figma</span>
+            </li>
+            <li>
+              <SiAdobephotoshop />
+              <span>Photoshop</span>
+            </li>
+            <li>
+              <SiAdobeillustrator />
+              <span>Illustrator</span>
+            </li>
+            <li>
+              <SiBlender />
+              <span>Blender</span>
+            </li>
+            <li>
+              <SiMicrosoftexcel />
+              <span>Excel</span>
+            </li>
+          </ul>
+        </NewAboutTools>
       </AboutInfo>
     </StyledAbout>
   );
@@ -152,6 +267,7 @@ const StyledAbout = styled(motion.div)`
 
 const AboutInfo = styled(motion.div)`
   display: flex;
+  flex-direction: column;
   align-items: start;
   width: 100%;
 
@@ -228,6 +344,76 @@ const AboutTools = styled(motion.div)`
         opacity: 0;
         color: transparent;
         font-size: 1rem;
+        z-index: -1;
+        transition: all 0.5s ease;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 400;
+      }
+
+      &:hover {
+        top: -8px;
+
+        svg {
+          color: #19a8c5;
+        }
+
+        span {
+          opacity: 1;
+          margin-top: 5rem;
+          color: #fb4c8b;
+        }
+      }
+    }
+  }
+`;
+
+const NewAboutTools = styled(motion.div)`
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 2rem;
+
+  h4 {
+    padding-bottom: 3rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+
+    @media only screen and (max-width: 550px) {
+      padding: 0 1rem;
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+      top: 0;
+      transition: all 0.5s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 2rem 1rem 0rem;
+
+      svg {
+        color: #355387;
+        width: 3rem;
+        height: 3rem;
+        transition: all 0.5s ease;
+        z-index: 5;
+      }
+
+      span {
+        position: absolute;
+        transition: all 0.5s ease;
+        opacity: 0;
+        color: transparent;
+        font-size: 0.9rem;
         z-index: -1;
         transition: all 0.5s ease;
         font-family: "Be Vietnam Pro", sans-serif;

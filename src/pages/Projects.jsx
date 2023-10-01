@@ -45,11 +45,11 @@ const Projects = () => {
             </ul>
           </CardInfo>
           <Buttons>
-            <a href={project.demo} target="_blank">
-              Project
+            <a className="primary-btn" href={project.demo} target="_blank">
+              Try Demo
             </a>
             <a href={project.github} target="_blank">
-              Code
+              See Code
             </a>
           </Buttons>
         </GridItem>
@@ -113,7 +113,7 @@ const CardInfo = styled.div`
 
   h3 {
     margin-right: 2rem;
-    color: #fb4c8b;
+    color: white; //#fb4c8b
     font-size: 1.25rem;
     font-family: "Sora", sans-serif;
     font-weight: 500;
@@ -163,6 +163,11 @@ const Buttons = styled.div`
     width: 20rem;
   }
 
+  .primary-btn {
+    background: #355387;
+    font-weight: 700;
+  }
+
   a {
     display: inline-block;
     margin: 0 1rem 1rem 1rem;
@@ -173,15 +178,15 @@ const Buttons = styled.div`
     font-size: 1rem;
     border-radius: 2rem;
     border: 3px solid #19a8c5;
+    background-color: #1b2a45;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
       rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
       rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    background-color: #0e1624;
     color: white;
     transition: all 0.5s ease;
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 
     &:hover {
       background-color: #19a8c5;

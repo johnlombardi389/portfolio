@@ -49,7 +49,7 @@ const Nav = () => {
 };
 
 const StyledNav = styled.nav`
-  min-height: 10vh;
+  min-height: 5vh;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -85,7 +85,7 @@ const StyledNav = styled.nav`
     list-style: none;
 
     li {
-      padding-left: 3.5rem;
+      padding-left: 3rem;
       position: relative;
       font-size: 1.1rem;
 

@@ -28,13 +28,15 @@ const Home = () => {
         <motion.div className="title" variants={titleAnimation}>
           <div className="reveal">
             <div className="hide">
-              <p>I’m a design minded software engineer and lifelong learner</p>
+              <p>Developer and Lifelong Learner</p>
             </div>
           </div>
         </motion.div>
 
         <BtnContainer variants={btnSlide}>
-          <Link to={"/portfolio/projects"}>See My Work</Link>
+          <Link to={"/portfolio/projects"} className="primary-btn">
+            See My Work
+          </Link>
           <a href="mailto:johnlombardi389@gmail.com">Contact Me</a>
         </BtnContainer>
       </IntroContainer>
@@ -107,19 +109,24 @@ const BtnContainer = styled(motion.div)`
     align-items: start;
   }
 
+  .primary-btn {
+    background: #355387;
+    font-weight: 700;
+  }
+
   a {
     padding: 1rem 2rem;
     font-size: 1.1rem;
     border-radius: 2rem;
     border: 3px solid #19a8c5;
-    background-color: #0e1624;
+    background-color: #1b2a45;
     color: white;
     transition: all 0.5s ease;
     cursor: pointer;
     text-decoration: none;
     margin-right: 2rem;
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 
     &:hover {
       background-color: #19a8c5;

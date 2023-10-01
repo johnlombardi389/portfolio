@@ -39,22 +39,22 @@ const projectData = () => [
     github: "https://github.com/johnlombardi389/layout-generator",
     video: layoutGenVid,
   },
-  {
-    id: 5,
-    title: "Portfolio Website",
-    tools: ["React", "JavaScript", "Sass", "Vite"],
-    demo: "https://johnlombardi389.github.io/portfolio/",
-    github: "https://github.com/johnlombardi389/portfolio",
-    video: portVid,
-  },
-  {
-    id: 6,
-    title: "RPS Game",
-    tools: ["JavaScript", "CSS", "HTML", "Git"],
-    demo: "https://johnlombardi389.github.io/rock-paper-scissors/",
-    github: "https://github.com/johnlombardi389/rock-paper-scissors",
-    video: rpsVid,
-  },
+  // {
+  //   id: 5,
+  //   title: "Portfolio Website",
+  //   tools: ["React", "JavaScript", "Sass", "Vite"],
+  //   demo: "https://johnlombardi389.github.io/portfolio/",
+  //   github: "https://github.com/johnlombardi389/portfolio",
+  //   video: portVid,
+  // },
+  // {
+  //   id: 6,
+  //   title: "RPS Game",
+  //   tools: ["JavaScript", "CSS", "HTML", "Git"],
+  //   demo: "https://johnlombardi389.github.io/rock-paper-scissors/",
+  //   github: "https://github.com/johnlombardi389/rock-paper-scissors",
+  //   video: rpsVid,
+  // },
 ];
 
 export default projectData;
