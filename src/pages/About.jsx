@@ -43,8 +43,8 @@ const About = () => {
         <AboutText>
           <h2>About Me</h2>
           <p>
-            I'm John, a software engineer who was raised by video games and long
-            flights around the world.
+            I'm John, a developer who was raised by video games and long flights
+            around the world.
           </p>
 
           <p>

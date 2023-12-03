@@ -35,7 +35,8 @@ const Projects = () => {
           onMouseOver={handleVideoMouseOver}
           onMouseOut={handleVideoMouseOut}
         >
-          <video src={project.video} preload="metadata" muted loop />
+          {/* <video src={project.video} preload="metadata" muted loop /> */}
+          <img src={project.image} alt={project.title} />
           <CardInfo>
             <h3>{project.title}</h3>
             <ul>
@@ -93,7 +94,13 @@ const GridItem = styled.div`
     box-shadow: 2px 2px 30px rgba(249, 192, 77, 0.75);
   }
 
-  video {
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* video {
     padding: 1rem;
     width: 100%;
     height: auto;
@@ -102,14 +109,14 @@ const GridItem = styled.div`
     @media only screen and (max-width: 550px) {
       padding: 0.5rem 0;
     }
-  }
+  } */
 `;
 
 const CardInfo = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: baseline;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 
   h3 {
     margin-right: 2rem;
@@ -166,6 +173,20 @@ const Buttons = styled.div`
   .primary-btn {
     background: #355387;
     font-weight: 700;
+  }
+
+  .inactive {
+    a {
+      cursor: not-allowed;
+      background-color: #a0a0a0;
+      border-color: #707070;
+      color: #808080;
+      box-shadow: none;
+      &:hover {
+        background-color: #a0a0a0;
+        color: #808080;
+      }
+    }
   }
 
   a {
