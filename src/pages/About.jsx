@@ -43,18 +43,21 @@ const About = () => {
         <AboutText>
           <h2>About Me</h2>
           <p>
-            I'm John, a developer with a passion for learning. I used to be a
-            designer, but everything changed when I decided to build my own
-            portfolio website. I went from not knowing what HTML was to building
-            full-stack applications with React and Django.
+            Hi! I'm John, a developer with a passion for learning. I used to be
+            a designer, but everything changed when I decided to build my own
+            portfolio website. Currently skilled in React, I am actively
+            expanding my JavaScript prowess and honing my full-stack development
+            abilities with Python and Object-Oriented Programming (OOP).
           </p>
 
           <p>
-            Just like in a video game, I've adopted leveling up as a lifestyle
-            and I'm always looking for the next skill to gain. I love making
-            websites and apps that just make your day better. When I'm not
-            coding you can find me experimenting in a kitchen, exploring
-            museums, or planning my next trip around the world.
+            Much like a video game character, I've embraced leveling up as a
+            lifestyle. From initially not knowing what HTML was to crafting
+            full-stack applications with React and Django, I'm always on the
+            lookout for the next skill to conquer. I love making websites and
+            apps that just make your day better. When I'm not coding you can
+            find me experimenting in a kitchen, exploring museums, or planning
+            my next trip around the world.
           </p>
 
           <p>
