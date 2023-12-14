@@ -43,21 +43,38 @@ const About = () => {
         <AboutText>
           <h2>About Me</h2>
           <p>
-            Hi! I'm John, a developer with a passion for learning. I used to be
-            a designer, but everything changed when I decided to build my own
-            portfolio website. Currently skilled in React, I am actively
-            expanding my JavaScript prowess and honing my full-stack development
-            abilities with Python and Object-Oriented Programming (OOP).
+            Hi! I'm John, a developer with a knack for turning ideas into
+            awesome digital experiences. I love making websites and apps that
+            just make your day better.
           </p>
 
           <p>
-            Much like a video game character, I've embraced leveling up as a
-            lifestyle. From initially not knowing what HTML was to crafting
-            full-stack applications with React and Django, I'm always on the
-            lookout for the next skill to conquer. I love making websites and
-            apps that just make your day better. When I'm not coding you can
-            find me experimenting in a kitchen, exploring museums, or planning
-            my next trip around the world.
+            What sets me apart is my unique journey that combines design and
+            coding. I started in industrial design, designing cool stuff like
+            watches and event props. But I craved constant learning and switched
+            gears to graphic design and UI/UX. It was when I decided to try
+            building my own portfolio website that everything changed,
+            everything about learning to code and building websites just
+            clicked.
+          </p>
+
+          <p>
+            Now I seamlessly blend creative and coding skills, keeping both
+            perspectives in mind from the first second I start a project. I've
+            gone from not knowing HTML to crafting full-stack projects with
+            React and Django. I love the challenge of always learning something
+            new. Recently, I've jumped into the backend world and started
+            playing with WordPress too.
+          </p>
+
+          <p>
+            What excites me most about development is its ever-changing
+            landscape, a realm that encourages relentless pursuit of new
+            technologies. It's where I thrive, blending my creative skills with
+            a lifelong commitment to learning. Much like a video game character,
+            I've embraced leveling up as a lifestyle. Beyond learning, you'll
+            also find me experimenting in a kitchen, checking out galleries, or
+            planning my next adventure around the world.
           </p>
 
           <p>
